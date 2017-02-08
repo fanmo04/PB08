@@ -1,10 +1,8 @@
-# Lab 4 - Ex 5: Read pitch angle and the rate of pitch (gy_dot), display the values in OLED using infinite loop
-# credits: Peter Cheung
 '''
 -----------------------------------------------------------
-Name: Lab 4 Exercise 4
+Name: Lab 4 Exercise 5
 -----------------------------------------------------------
-Learning to use rhe OLED deisplay driver
+Draw Pendulum reflecting pitch angles (raw and filtered)
 -----------------------------------------------------------
 '''
 import pyb
