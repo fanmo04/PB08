@@ -16,7 +16,7 @@ while true
         pitch = p*180/pi;
         roll = r*180/pi;
         gx = max(min(gx+x*dt, pi/2),-pi/2);
-        gy = max(min(gy+y*dy,pi/2),-pi/2);
+        gy = max(min(gy+y*dt,pi/2),-pi/2);
         clf(fig1);
         subplot(2,1,1);
         model.draw(fig1, p, r, 'Accelerometer');
