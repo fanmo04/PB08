@@ -1,7 +1,7 @@
 %Lab 4 -Exercise 2: 3D display of roll and pitch angles
 clear all
 close('all')
-pb = PyBench('COM4');
+pb = PyBench('COM5');
 model = IMU_3D();
 N = 50;
 tic;
