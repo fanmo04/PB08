@@ -1,7 +1,7 @@
 % Lab 4 - Excercise 1a: testing the acclerometer
 clear all 
 close('all') 
-pb = PyBench('COM4'); 
+pb = PyBench('COM5'); 
 N=500;
 end_time = 10.0;
 while true
