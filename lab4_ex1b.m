@@ -22,7 +22,7 @@ while true
     tic;
     timestamp = timestamp + dt;
     gx = max(min(gx+x*dt, pi/2), -pi/2); 
-    gy = max(min(gy+y*dt, pi/2), -pi/s);
+    gy = max(min(gy+y*dt, pi/2), -pi/2);
     plot(timestamp, gy*180/pi, '.b');
     plot(timestamp, gx*180/pi, '.r');
     pause(0.001);
