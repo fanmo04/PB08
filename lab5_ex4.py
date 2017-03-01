@@ -29,14 +29,13 @@ while True:
     # drive motor - controlled by potentiometer
     speed = int((pot.read() - 2048)*200/4096)
     if (speed >= DEADZONE):
-        A_forward(speed)
-        B_forward(speed)
+        forward(speed)
+
     elif (speed <= DEADZONE):
-        A_back(abs(speed))
-        B_back(abs(speed))
+        backward(abs(speed))
+
     else:
-        A_stop()
-        B_stop()
+        stop()
 
     # Display new speed
     oled.draw_text(0, 20, 'Motor A: {:5.2f} rps'.format(A_speed/39))
